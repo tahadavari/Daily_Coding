@@ -1,4 +1,5 @@
 # link : https://www.hackerrank.com/challenges/zig-zag-sequence/problem
+# cc3
 
 def findZigZagSequence(a, n):
     a.sort()
