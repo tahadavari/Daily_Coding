@@ -1,4 +1,4 @@
-
+# link : https://leetcode.com/problems/jump-game-ii/submissions/
 
 class Solution:
     def jump(self, nums: list[int]) -> int:
