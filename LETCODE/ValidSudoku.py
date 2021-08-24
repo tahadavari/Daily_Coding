@@ -1,3 +1,5 @@
+# link : https://leetcode.com/problems/valid-sudoku/
+# cc7
 
 class Solution:
     def isValidSudoku(self, board: list[list[str]]) -> bool:
