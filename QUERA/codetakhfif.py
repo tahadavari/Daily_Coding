@@ -1,14 +1,9 @@
-Ns, t = input().split()
-Ns = int(Ns)
-result = ["Yes"]*Ns
-for i in range(Ns):
-    code=input()
-    for c in code:
-        if not (c in t):
-            result[i]="No"
-            break
-for i in result:
-    print(i)
+num,valid = input().split()
 
-
-    
+valid = set(valid)
+for i in range(int(num)):
+    test = set(input())
+    if valid == test:
+        print('Yes')
+    else :
+        print('No')
